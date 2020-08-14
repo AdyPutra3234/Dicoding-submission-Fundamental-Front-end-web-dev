@@ -1,0 +1,130 @@
+@media (max-width: 575px) {
+    .jumbotron {
+        height: 200px ;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    nav .navbar-brand {
+        font-weight: bolder;
+    }
+
+    .jumbotron {
+        margin-top: -72px;
+        height: 300px;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 60px;
+    }
+
+    nav {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+        position: relative;
+        z-index: 1;
+    }
+ }
+
+ @media (min-width: 992px) {
+     .jumbotron {
+         height: 480px;
+         margin-top: -150px;
+     }
+
+     .jumbotron .display-4 {
+        margin-top: 200px;
+        font-weight: 200;
+    }
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron {
+    background-image: url(../image/jumbotron_background.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron span {
+    font-weight: 400;
+}
+
+.jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+
+.dl {
+    display: block;
+    height: 600px;
+    overflow: auto;
+}
+
+.dl .col {
+    margin: 10px 5px;
+    padding: 3px;
+}
+
+.dl .col-md-5 {
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.bg-cnf {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 2px;
+}
+
+.bg-rvr {
+    background-color: rgb(82, 201, 3);
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 2px;
+}
+
+.bg-dth {
+    background-color: red;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 2px;
+}
+
+.list_item {
+    margin: 5px;
+}
