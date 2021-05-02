@@ -1,10 +1,6 @@
-# Project
-Web Simpel pantau data covid19
+#Web Simpel pantau data covid19
 
-menggunakan api publik untuk mendapatkan data
+##Data powered by :
 
-API yg digunakan :
- -https://covid19.mathdro.id/api
- -https://opendata.arcgis.com/datasets/0c0f4558f1e548b68a1c82112744bad3_0.geojson
- 
- #Hanya untuk pembelajaran
+*[Mathdroid Covid API](https://github.com/mathdroid/covid-19-api)
+*[bnpb-inacovid19](https://bnpb-inacovid19.hub.arcgis.com/datasets/data-harian-kasus-per-provinsi-covid-19-indonesia/geoservice)
